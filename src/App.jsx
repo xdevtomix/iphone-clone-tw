@@ -1,5 +1,3 @@
-import { LightBulbIcon, CameraIcon } from '@heroicons/react/solid';
-
 import Iphone from './components/Iphone';
 
 export default function App() {

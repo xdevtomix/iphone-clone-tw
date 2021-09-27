@@ -1,6 +1,6 @@
-import Notch from './Notch';
-import NotificationBar from './NotificationBar';
-import TimeAndDate from './TimeAndDate';
+import Header from './Header';
+import Main from './Main';
+import Footer from './Footer';
 
 export default function Iphone() {
     return (
@@ -8,12 +8,11 @@ export default function Iphone() {
             
             <img className="absolute inset-0 h-full w-full object-cover" src="https://cdn.pixabay.com/photo/2021/06/28/18/36/cereals-6372410_960_720.jpg" />
             
-            <Notch />
+            <Header />
 
-            <div className="relative">
-                <NotificationBar />
-                <TimeAndDate />
-            </div>
+            <Main />
+
+            <Footer />
 
         </div>
     );
