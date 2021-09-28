@@ -4,10 +4,10 @@ export default function Footer() {
     return (
         <div className="absolute bottom-0 inset-x-0 h-20">
             <div className="px-10 flex justify-between">
-                <button className="bg-gray-800/40 backdrop-blur-md text-white rounded-full p-2">
+                <button className="bg-gray-800/40 backdrop-blur-md text-white rounded-full p-2" aria-label="light bulb">
                     <LightBulbIcon className="h-6 w-6" />
                 </button>
-                <button className="bg-gray-800/40 backdrop-blur-md text-white rounded-full p-2">
+                <button className="bg-gray-800/40 backdrop-blur-md text-white rounded-full p-2" aria-label="camera">
                     <CameraIcon className="h-6 w-6" />
                 </button>
             </div>
