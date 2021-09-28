@@ -3,7 +3,7 @@ import NotificationBox from './NotificationBox';
 
 export default function Main() {
     return (
-        <div className="relative">
+        <div className="relative mt-6">
             <TimeAndDate />
 
             <NotificationBox />
